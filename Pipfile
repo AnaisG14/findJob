@@ -4,6 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+python-telegram-bot = "*"
+dotenv = "*"
+openai = "*"
+google-cloud-aiplatform = "*"
+gspread = "*"
 
 [dev-packages]
 pytest = "*"
